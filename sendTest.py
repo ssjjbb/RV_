@@ -1,0 +1,14 @@
+#KÄYTÄ TÄTÄ TIEDOSTOA VIESTIN LÄHETYKSEN TESTAAMISEEN
+#masterTest.py TIEDOSTOON VARSINAINEN KÄYTTÖKOODI
+
+
+
+
+import nrf24l01test
+#TÄNNE VIESTIKONSTRUKTIO YMS
+#nrf24l01test.master(msg) msg = LÄHETETTÄVÄ VIESTI, JOS ERI TYYPPIÄ KUIN FLOAT
+#VAIHDA MYöS nrf24l01test.py TIEDOSTON struct.pack ja struct.unpack MUUTTUJIEN FORMAATTI
+#OIKEAKSI. PREFIXIT LÖYTYY DOKUMENTAATIOSTA. MUISTA MYÖS VAIHTAA SAMAAN slave() funktiossa
+
+msg = 1.12345 #Toimii float tyyppisellä viestillä
+nrf24l01test.master(msg)
