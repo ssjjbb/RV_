@@ -3,4 +3,4 @@ RV IoT project repo Adding some 'smart' sensors into RV to monitor temperature i
 
 Project utilizes Raspberry Pi 4 as a controller unit with a touchscreen display situated somewhere on the dashboard of the vehicle. Sensors will be operating on Raspberry Pi Picos and communication between Picos is done via nRF24L01+ rf transceivers and Pico - RPi through UART. If wifi is available in the RV, might change Picos to ESP32 or similar mcu with built-in wifi support
 
-First project using git so this will improve as i learn more about the wonders of version control
+
