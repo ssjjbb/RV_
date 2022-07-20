@@ -71,6 +71,10 @@ while True:
         value1.place(x=120, y=0)
         value2 = tk.Message(master=temperature_frame2, text=temp2(), bg="blue")
         value2.place(x=120, y=0)
+        celsius1 = tk.Message(master=temperature_frame1, text="\N{DEGREE CELSIUS}", bg="red")
+        celsius1.place(x=143, y=0)
+        celsius2 = tk.Message(master=temperature_frame2, text="\N{DEGREE CELSIUS}", bg="blue")
+        celsius2.place(x=143, y=0)
         """
         Block for temperature values and their visuals ends
         ---------------------------------------------------------------------------------------------------------------
@@ -111,7 +115,6 @@ while True:
         h_state4.place(x=125, y=0)
         h_state5 = tk.Message(master=hatch5_frame, text="", bg=hatch_state(5))
         h_state5.place(x=125, y=0)
-
 
         """
         Block for hatch state values and their visuals ends
